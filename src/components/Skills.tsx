@@ -4,15 +4,11 @@ import { Badge } from '@/components/ui/badge';
 
 const Skills = () => {
   const skillCategories = [
-    {
-      category: "DevOps & Monitoring",
-      color: "cosmic",
-      skills: ["Ansible", "Jenkins", "Prometheus", "Grafana", "ELK Stack", "CI/CD pipeline"]
-    },
+    
     {
       category: "Languages",
       color: "stellar",
-      skills: ["Python", "JavaScript", "Shell Scripting"]
+      skills: ["Java", "Python", "C programming"]
     },
     {
       category: "Web Technologies",
@@ -22,22 +18,18 @@ const Skills = () => {
     {
       category: "Cloud & Containerization",
       color: "galaxy",
-      skills: ["Docker", "Kubernetes", "Podman", "AWS"]
+      skills: ["Docker","AWS"]
     },
     {
-      category: "Operating Systems",
+      category: "Database",
       color: "space-orange",
-      skills: ["RHEL", "Linux", "Ubuntu", "Windows"]
+      skills: [ "MySQL"]
     },
-    {
-      category: "UI/UX Design",
-      color: "stellar",
-      skills: ["Wireframing", "Prototyping", "User Research", "Figma"]
-    },
+    
     {
       category: "Tools",
       color: "cosmic",
-      skills: ["Git", "VS Code", "Figma", "Docker Desktop", "Postman"]
+      skills: ["Xampp", "VS Code", "Docker Desktop", "Postman"]
     }
   ];
 

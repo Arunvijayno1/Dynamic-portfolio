@@ -1,7 +1,7 @@
 import { motion } from 'framer-motion';
 import { useState, useEffect } from 'react';
 import { Button } from '@/components/ui/button';
-import profileImage from '@/assets/yuvaraj-profile.jpg';
+import profileImage from '@/assets/arun-profile.png';
 
 const Navigation = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -49,11 +49,11 @@ const Navigation = () => {
           >
             <img 
               src={profileImage} 
-              alt="Yuvaraj S" 
+              alt="Arun vjiay" 
               className="w-8 h-8 rounded-full object-cover border-2 border-cosmic/30 shadow-lg"
             />
             <span className="text-2xl font-bold gradient-cosmic bg-clip-text text-transparent">
-              Yuvaraj S
+              Arunvijay
             </span>
           </motion.div>
           

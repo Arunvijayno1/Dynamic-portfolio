@@ -9,23 +9,23 @@ const Education = () => {
       degree: "Bachelor of Engineering in Computer Science",
       institution: "Sri Sairam Engineering College",
       location: "Chennai",
-      period: "2023-2026",
+      period: "2022-2026",
       status: "Currently Pursuing",
       color: "cosmic",
       description: "Focusing on advanced computer science concepts, software engineering, and emerging technologies."
     },
     {
-      degree: "Diploma in Mechanical Engineering",
-      institution: "Central Polytechnic College",
+      degree: "12th Grade",
+      institution: "New prince Matric Hr.Sec.School",
       location: "Chennai", 
-      period: "2019-2023",
+      period: "2020-2021",
       status: "Completed",
       color: "stellar",
       description: "Gained foundational engineering knowledge and problem-solving skills that complement my tech expertise."
     },
     {
-      degree: "Secondary School Leaving Certificate",
-      institution: "Srimathi Lakshmammal Memorial Matric Hr.Sec.School",
+      degree: "10th Grade",
+      institution: "New prince Matric Hr.Sec.School",
       location: "Chennai",
       period: "2018-2019",
       status: "Completed",
@@ -36,32 +36,25 @@ const Education = () => {
 
   const certifications = [
     {
-      title: "Red Hat Certified System Administrator",
-      issuer: "Red Hat",
-      date: "11-06-2024",
+      title: "AWS Cerified Solution Architect Associate Certification",
+      issuer: "GeeksforGeeks",
+      date: "29-09-2025",
       id: "240-121-111",
       color: "cosmic"
     },
     {
-      title: "Red Hat Certified Engineer",
-      issuer: "Red Hat",
-      date: "24-10-2024",
+      title: "AWS Cloud Practitioner Certification",
+      issuer: "GeeksforGeeks",
+      date: "10-10-2025",
       id: "240-102-111",
       color: "stellar"
     },
     {
-      title: "Red Hat Certified Container Specialist",
-      issuer: "Red Hat",
-      date: "30-06-2025",
+      title: "Google Cybersecurity",
+      issuer: "Coursera",
+      date: "25-10-2025",
       id: "240-102-111",
       color: "nebula"
-    },
-    {
-      title: "Full Stack Web Development",
-      issuer: "Fluzen Technologies",
-      date: "12-09-2024",
-      id: "ZSJY0482",
-      color: "galaxy"
     }
   ];
 

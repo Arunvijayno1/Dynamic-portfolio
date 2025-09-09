@@ -20,10 +20,10 @@ const Footer = () => {
             viewport={{ once: true }}
           >
             <h3 className="text-2xl font-bold gradient-cosmic bg-clip-text text-transparent mb-4">
-              Yuvaraj S
+              Arun vijay
             </h3>
             <p className="text-muted-foreground leading-relaxed">
-              DevOpster, Front-end Developer, and Technology Enthusiast passionate about creating 
+              Front-end Developer, and Technology Enthusiast passionate about creating 
               innovative solutions and building exceptional user experiences.
             </p>
           </motion.div>
@@ -66,15 +66,15 @@ const Footer = () => {
             <h4 className="text-lg font-semibold text-stellar mb-4">Connect</h4>
             <div className="space-y-3">
               <a
-                href="mailto:sureshyuvaraj2003@gmail.com"
+                href="mailto:arunvijay4116@gmail.com"
                 className="flex items-center gap-2 text-muted-foreground hover:text-cosmic transition-colors duration-300"
               >
                 <Mail className="h-4 w-4" />
-                sureshyuvaraj2003@gmail.com
+                arunvijiay4116@gmail.com
               </a>
               <div className="flex space-x-4 mt-4">
                 <a
-                  href="https://github.com/YUVARAJ-2K3"
+                  href="https://github.com/Arunvijayno1/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-muted-foreground hover:text-cosmic transition-colors duration-300"
@@ -82,7 +82,7 @@ const Footer = () => {
                   <Github className="h-5 w-5" />
                 </a>
                 <a
-                  href="https://linkedin.com/in/yuvaraj-s-542053256"
+                  href="https://linkedin.com/in/arunvijayno1/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-muted-foreground hover:text-stellar transition-colors duration-300"
@@ -103,7 +103,7 @@ const Footer = () => {
           className="border-t border-border/50 pt-8 relative"
         >
           <div className="flex items-center justify-center gap-2 text-muted-foreground mb-4">
-            <span>© {currentYear} Yuvaraj S. Designed And Built with</span>
+            <span>© {currentYear} Arun vijay. Designed And Built with</span>
             <Heart className="h-4 w-4 text-nebula" />
             <span>And Passion For Technology</span>
           </div>

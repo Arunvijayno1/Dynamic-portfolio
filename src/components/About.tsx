@@ -4,12 +4,7 @@ import { Code, Server, Palette, Zap } from 'lucide-react';
 
 const About = () => {
   const highlights = [
-    {
-      
-      icon: Server,
-      title: "DevOps & Cloud",
-      description: "Skilled in containerization, CI/CD pipelines, Monitoring and Logging, AWS cloud infrastructure management"
-    },
+    
     {
       icon: Code,
       title: "Programming",
@@ -20,11 +15,7 @@ const About = () => {
       title: "Full-Stack Development",
       description: "Expertise in modern web technologies including React, Node.js, and cloud platforms"
     },
-    {
-      icon: Palette,
-      title: "UI/UX Design",
-      description: "Creating intuitive and engaging user experiences with attention to design details"
-    }
+    
     
   ];
 
@@ -66,17 +57,14 @@ const About = () => {
           >
             <Card className="bg-card/50 backdrop-blur-sm cosmic-border">
               <CardContent className="p-8">
+                
                 <p className="text-lg leading-relaxed text-muted-foreground">
-                  I'm a passionate <span className="text-cosmic font-semibold">DevOpster, Programmer and Front-end Developer</span> based in Chennai, 
-                  currently pursuing my Bachelor's in Computer Science Engineering. With a strong foundation in both development 
-                  and operations, I specialize in creating robust, scalable web applications and implementing efficient DevOps practices.
-                </p>
-                <br />
-                <p className="text-lg leading-relaxed text-muted-foreground">
-                  My journey in technology has led me to work with cutting-edge tools like <span className="text-stellar font-semibold">Docker, 
-                  Kubernetes, Jenkins</span>, and modern web frameworks. I'm particularly passionate about 
-                  <span className="text-nebula font-semibold"> automation, monitoring, and building user-friendly interfaces</span> that 
-                  solve real-world problems. I believe in continuous learning and staying updated with the latest technological advancements.
+                  I am <span className="text-cosmic font-semibold">Arun Vijay</span>, a passionate and dedicated final-year Computer Science student aspiring to become a Software Engineer.
+                  With strong foundations in <span className="text-nebula font-semibold">Data Structures & Algorithms, Java Full Stack Development, and an interest in Cybersecurity</span>, I enjoy solving real-world problems through technology.
+                  I have worked on projects ranging from an <span className="text-stellar font-semibold">AI-powered e-voting system to an e-commerce web application using MERN</span>, which showcase my skills in full-stack development and practical implementation.
+                  I am also preparing for campus placements and constantly sharpening my problem-solving abilities.
+                  Beyond academics, I am committed to continuous learning and growth, aiming to build innovative solutions that make an impact.
+                  
                 </p>
               </CardContent>
             </Card>

@@ -32,15 +32,15 @@ const Contact = () => {
     {
       icon: Mail,
       label: "Email",
-      value: "sureshyuvaraj2003@gmail.com",
-      href: "mailto:sureshyuvaraj2003@gmail.com",
+      value: "arunvijay4116@gmail.com",
+      href: "mailto:arunvijay4116@gmail.com",
       color: "cosmic"
     },
     {
       icon: Phone,
       label: "Phone",
-      value: "+91 9841721640",
-      href: "tel:+919841721640",
+      value: "+91 9894884116",
+      href: "tel:+919894884116",
       color: "stellar"
     },
     {
@@ -56,20 +56,14 @@ const Contact = () => {
     {
       icon: Github,
       label: "GitHub",
-      href: "https://github.com/YUVARAJ-2K3",
+      href: "https://github.com/Arunvijayno1",
       color: "cosmic"
     },
     {
       icon: Linkedin,
       label: "LinkedIn",
-      href: "https://linkedin.com/in/yuvaraj-s-542053256",
+      href: "https://www.linkedin.com/in/arunvijayno1/",
       color: "stellar"
-    },
-    {
-      icon: DiscordIcon,
-      label: "Discord",
-      href: "https://discordapp.com/users/pandakutty/",
-      color: "nebula"
     }
   ];
 

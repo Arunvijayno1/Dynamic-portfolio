@@ -7,7 +7,7 @@ const Experience = () => {
   const experiences = [
     {
       title: "Technical Support Engineer",
-      company: "Vectra Technosoft Pvt Ltd",
+      company: "Beasent Technologies",
       location: "Remote",
       period: "Jan 2025 - Feb 2025",
       type: "Internship",
@@ -20,43 +20,15 @@ const Experience = () => {
       ]
     },
     {
-      title: "UI/UX Intern",
-      company: "Internpe",
-      location: "Remote",
-      period: "Jan 2025 - Feb 2025",
-      type: "Internship",
-      color: "stellar",
-      description: "Designed user interfaces and improved user experience for web applications, focusing on modern design principles and user-centered design.",
-      achievements: [
-        "Created wireframes and prototypes for 3 major features",
-        "Conducted user research and usability testing",
-        "Improved application accessibility standards"
-      ]
-    },
-    {
-      title: "Linux System Administrator",
-      company: "Vectra Technosoft Pvt Ltd",
-      location: "Remote",
-      period: "April 2024 - May 2024",
-      type: "Internship",
-      color: "nebula",
-      description: "Managed Linux servers, automated system tasks, and implemented monitoring solutions for enterprise infrastructure.",
-      achievements: [
-        "Automated deployment processes reducing manual effort by 60%",
-        "Implemented monitoring solutions using Prometheus and Grafana",
-        "Maintained 99.9% server uptime"
-      ]
-    },
-    {
       title: "Internship Trainee",
-      company: "Breaks India Limited",
+      company: "FutureCalls Technologies pvt ltd.",
       location: "Chennai",
       period: "Jun 2022 - Dec 2022",
       type: "Internship",
       color: "galaxy",
       description: "Gained hands-on experience in automotive manufacturing processes and quality control systems.",
       achievements: [
-        "Learned manufacturing processes and quality standards",
+        "Learned CRUD operations in e-commerce site",
         "Participated in process improvement initiatives",
         "Developed understanding of industrial automation"
       ]

@@ -1,8 +1,8 @@
 import { motion } from 'framer-motion';
 import { Button } from '@/components/ui/button';
 import { Download, ChevronDown, Github, Linkedin, Mail } from 'lucide-react';
-import profileImage from '@/assets/yuvaraj-profile.jpg';
-import resumeFile from '@/assets/resume-yuvaraj-s.pdf';
+import profileImage from '@/assets/arun-profile.png';
+import resumeFile from '@/assets/arun-resume.pdf';
 
 const Hero = () => {
   const scrollToSection = (href: string) => {
@@ -15,7 +15,7 @@ const Hero = () => {
   const handleDownloadResume = () => {
     const link = document.createElement('a');
     link.href = resumeFile;
-    link.download = 'Yuvaraj_S_Resume.pdf';
+    link.download = 'arun-resume.pdf';
     link.click();
   };
 
@@ -40,12 +40,12 @@ const Hero = () => {
                 Hello, I'm
               </div>
               <h1 className="text-5xl lg:text-7xl font-bold">
-                <span className="text-cosmic">Yuvaraj</span>{' '}
-                <span className="text-nebula">S</span>
+                <span className="text-cosmic">Arunvijay,</span>{' '}
+                <span className="text-nebula"></span>
               </h1>
               <div className="text-2xl lg:text-3xl text-muted-foreground">
-                <span className="text-galaxy">DevOpster</span> |{' '}
-                <span className="text-space-orange">Front-end Developer</span> |{' '}
+                <span className="text-galaxy">Full-Stack Developer</span> |{' '}
+                <span className="text-space-orange">Cybersecurity</span> |{' '}
                 <span className="text-stellar">Programmer</span>
               </div>
             </motion.div>
@@ -56,8 +56,7 @@ const Hero = () => {
               transition={{ delay: 0.4, duration: 0.6 }}
               className="text-lg text-muted-foreground leading-relaxed"
             >
-              Enthusiastic and detail-oriented programmer with expertise in modern web technologies, 
-              DevOps practices, and cloud infrastructure. Passionate about creating innovative solutions 
+              Enthusiastic and detail-oriented programmer with expertise in modern web technologies. Passionate about creating innovative solutions 
               and building user-friendly experiences.
             </motion.p>
 
@@ -90,7 +89,7 @@ const Hero = () => {
               className="flex space-x-6"
             >
               <a
-                href="https://github.com/YUVARAJ-2K3"
+                href="https://github.com/Arunvijayno1/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-muted-foreground hover:text-cosmic transition-colors duration-300"
@@ -98,7 +97,7 @@ const Hero = () => {
                 <Github className="h-6 w-6" />
               </a>
               <a
-                href="https://linkedin.com/in/yuvaraj-s-542053256"
+                href="https://linkedin.com/in/arunvijayno1/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-muted-foreground hover:text-stellar transition-colors duration-300"
@@ -106,7 +105,7 @@ const Hero = () => {
                 <Linkedin className="h-6 w-6" />
               </a>
               <a
-                href="mailto:sureshyuvaraj2003@gmail.com"
+                href="mailto:arunvijay4116@gmail.com"
                 className="text-muted-foreground hover:text-nebula transition-colors duration-300"
               >
                 <Mail className="h-6 w-6" />
